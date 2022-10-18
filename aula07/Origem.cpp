@@ -16,7 +16,7 @@ using namespace std;
 
 struct Pixel
 {
-    unsigned char red, green, blue, alpha;
+    unsigned char red, green, blue;
 };
 
 // Convert Image to Gray at CPU
@@ -26,7 +26,7 @@ void ConvertImageToGrayCpu(unsigned char* imageRGBA, int width, int height) {
 
             /*  Color to Grayscale Equation
              Ylinear = 0.2126RLinear + 0.7152GLiners +0.0722BLiners */
-            Pixel* ptrPixel = (Pixel*)&imageRGBA[y * width * 4 + 4 * x];
+            Pixel* ptrPixel = (Pixel*)&imageRGBA[y * width * 3 + 3 * x];
             unsigned char pixelValue = (unsigned char)(ptrPixel->red * 0.2126f + ptrPixel->green * 0.7152f + ptrPixel->blue * 0.0722f);
 
             //float pixelValue = ptrPixel->red * 0.2126f + ptrPixel->green * 0.7152f + ptrPixel-> blue * 0.0722f;
@@ -34,7 +34,7 @@ void ConvertImageToGrayCpu(unsigned char* imageRGBA, int width, int height) {
             ptrPixel->red = pixelValue;
             ptrPixel->green = pixelValue;
             ptrPixel->blue = pixelValue;
-            ptrPixel->alpha = 255;
+            //ptrPixel->alpha = 255;
 
         }
     }
@@ -46,7 +46,7 @@ int main()
 {
     int width, height, channels;
     // Loading jpeg files
-    unsigned char* img = stbi_load("images/apple.jpg", &width, &height, &channels, 4);
+    unsigned char* img = stbi_load("images/apple.jpg", &width, &height, &channels, 3);
 
 
 
