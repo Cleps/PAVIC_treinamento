@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file helloworld.cu...
+  
+  C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\x64\Debug\helloworld.cu.obj "C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\helloworld.cu" 
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\helloworld.cu(12): warning #181-D: argument is incompatible with corresponding format string conversion
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\helloworld.cu(12): warning #181-D: argument is incompatible with corresponding format string conversion
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\helloworld.cu(14): warning #181-D: argument is incompatible with corresponding format string conversion
+  
+  helloworld.cu
+     Criando biblioteca C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\x64\Debug\Cuda_aula08.lib e objeto C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\x64\Debug\Cuda_aula08.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library
+  Cuda_aula08.vcxproj -> C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\x64\Debug\Cuda_aula08.exe

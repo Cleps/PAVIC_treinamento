@@ -1,6 +1,5 @@
 #include<iostream>
 #include<string>
-
 #include<fstream> // Read and Write Images
 
 using namespace std;
@@ -44,7 +43,8 @@ int main() {
 	//int intRed =0, intGreen=0, intBlue=0;
 // String to Int!!!!
 
-	while (!image.eof()) {
+	while (!image.eof()) 
+	{
 
 		// 3 Reading Strings
 		// RGB - 195 209 222
@@ -90,7 +90,7 @@ int main() {
 		}
 
 		// New Images
-				//newimage << red << " " << green << " " << blue << " ";
+		//newimage << red << " " << green << " " << blue << " ";
 		newimage << intRED << " " << intGreen << " " << intBlue << " ";
 
 	}

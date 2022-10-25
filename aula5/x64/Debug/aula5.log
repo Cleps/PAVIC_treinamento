@@ -1,0 +1,2 @@
+﻿Origem.obj : error LNK2005: main já definida no full_thread.obj
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula3\aula5\x64\Debug\aula5.exe : fatal error LNK1169: encontrados um ou mais símbolos múltiplos definidos

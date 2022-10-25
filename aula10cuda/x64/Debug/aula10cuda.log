@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file File.cu...
+  
+  C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\x64\Debug\File.cu.obj "C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\File.cu" 
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\include/stb_image.h(4239): warning #550-D: variable "old_limit" was set but never used
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\include/stb_image.h(5180): warning #550-D: variable "idata_limit_old" was set but never used
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\include/stb_image.h(6999): warning #550-D: variable "out_size" was set but never used
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\include/stb_image.h(7000): warning #550-D: variable "delays_size" was set but never used
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\File.cu(60): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\File.cu(61): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\File.cu(121): error : identifier "argv" is undefined
+  
+  1 error detected in the compilation of "C:/Users/clecio/Documents/TREINAMENTO/Parallelal/aula07/aula10cuda/File.cu".
+  File.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 11.8.targets(785,9): error MSB3721: O comando ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\x64\Debug\File.cu.obj "C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\aula10cuda\File.cu"" foi finalizado com o código 1.

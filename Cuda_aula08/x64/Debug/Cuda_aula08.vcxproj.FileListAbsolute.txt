@@ -1,0 +1,1 @@
+C:\Users\clecio\Documents\TREINAMENTO\Parallelal\aula07\Cuda_aula08\x64\Debug\Cuda_aula08.exe
